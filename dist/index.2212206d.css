@@ -2,4 +2,34 @@
   color: #395c6b;
   padding: 50px;
 }
+
+.movie-list {
+  background-color: #e6e1c5;
+  padding: 20px;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-weight: 900;
+}
+
+.movie-view {
+  color: #fff;
+  background-color: #e6e1c5;
+  margin: auto;
+  padding: 30px;
+  font-family: Georgia, Times New Roman, Times, serif;
+}
+
+.movie-card {
+  color: #395c6b;
+  padding-bottom: 10px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.back-button {
+  color: #fff;
+  background-color: #395c6b;
+  width: 100px;
+  height: 50px;
+  font-style: normal;
+}
 /*# sourceMappingURL=index.2212206d.css.map */
