@@ -1,0 +1,1 @@
+{"mappings":"AAEA","sources":["src/index.scss"],"sourcesContent":["$color: #395C6B;\n\n.movie-bee {\n  color: $color;\n  padding: 50px;\n}\n"],"names":[],"version":3,"file":"index.2212206d.css.map","sourceRoot":"/__parcel_source_root/"}
