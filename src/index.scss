@@ -4,3 +4,35 @@ $color: #395C6B;
   color: $color;
   padding: 50px;
 }
+
+
+.movie-list {
+  background-color: #E6E1C5;
+  font-weight: 900;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+
+.movie-view{
+  margin: auto;
+  background-color: #E6E1C5;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 30px;
+}
+
+.movie-card{
+  font-size: medium;
+  font-weight: 500;
+padding-bottom: 10px;
+color: #395C6B
+}
+
+.back-button{
+  width: 100px;
+  height: 50px;
+  background-color: #395C6B;
+  color: white;
+  font-style: normal;
+}
+
