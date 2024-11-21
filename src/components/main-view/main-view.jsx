@@ -4,15 +4,17 @@ import { MovieView } from "../movie-card/movie-view.jsx";
  
 
 export const MainView = () => {
-    const url = "https://openlibrary.org/search.json?q=star+wars";
+    const url = "https://smavuleti-moviebee-479d2e8d7a6f.herokuapp.com/allMovies";
     const [movies, setMovies] = useState([]);
 
     //userEffect() hook with fetch()
     useEffect(()=> {
-        fetch("mongodb+srv://smavuleti:crS94rDp6YWatEil@moviebeecluster.wyhju.mongodb.net/?retryWrites=true&w=majority&appName=movieBeeCluster")
+        fetch(url)
         .then((response) => response.json())
         .then((data) => {
                     setMovies(data);
+                    console.log("Movies from api:", data);
+
 
             });
     });
@@ -24,7 +26,6 @@ export const MainView = () => {
         return (
         <div>
         <MovieView movie={selectedMovie} onBackClick={() => setSelectedMovie(null)} />
-        <MovieView movie={selectedMovie} onBackClick={()=>setSelectedMovie(null)} />
         </div>
         )
     }
