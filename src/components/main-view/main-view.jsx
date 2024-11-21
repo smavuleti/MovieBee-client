@@ -9,7 +9,7 @@ export const MainView = () => {
 
     //userEffect() hook with fetch()
     useEffect(()=> {
-        fetch(url)
+        fetch("mongodb+srv://smavuleti:crS94rDp6YWatEil@moviebeecluster.wyhju.mongodb.net/?retryWrites=true&w=majority&appName=movieBeeCluster")
         .then((response) => response.json())
         .then((data) => {
                     setMovies(data);
