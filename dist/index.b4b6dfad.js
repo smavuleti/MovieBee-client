@@ -27452,7 +27452,7 @@ const MovieCard = ({ movie, onMovieClick })=>{
     }, void 0, false, {
         fileName: "src/components/movie-card/movie-card.jsx",
         lineNumber: 6,
-        columnNumber: 12
+        columnNumber: 5
     }, undefined);
 };
 _c = MovieCard;
@@ -28274,12 +28274,12 @@ const MovieView = ({ movie, onBackClick })=>{
                 }, void 0, false, {
                     fileName: "src/components/movie-card/movie-view.jsx",
                     lineNumber: 7,
-                    columnNumber: 17
+                    columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/movie-card/movie-view.jsx",
                 lineNumber: 6,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 class: "movie-card",
@@ -28289,7 +28289,7 @@ const MovieView = ({ movie, onBackClick })=>{
                     }, void 0, false, {
                         fileName: "src/components/movie-card/movie-view.jsx",
                         lineNumber: 10,
-                        columnNumber: 17
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                         children: [
@@ -28299,13 +28299,13 @@ const MovieView = ({ movie, onBackClick })=>{
                     }, void 0, true, {
                         fileName: "src/components/movie-card/movie-view.jsx",
                         lineNumber: 11,
-                        columnNumber: 17
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/movie-card/movie-view.jsx",
                 lineNumber: 9,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 class: "movie-card",
@@ -28315,7 +28315,7 @@ const MovieView = ({ movie, onBackClick })=>{
                     }, void 0, false, {
                         fileName: "src/components/movie-card/movie-view.jsx",
                         lineNumber: 14,
-                        columnNumber: 17
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                         children: [
@@ -28325,13 +28325,13 @@ const MovieView = ({ movie, onBackClick })=>{
                     }, void 0, true, {
                         fileName: "src/components/movie-card/movie-view.jsx",
                         lineNumber: 15,
-                        columnNumber: 17
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/movie-card/movie-view.jsx",
                 lineNumber: 13,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 class: "movie-card",
@@ -28341,7 +28341,7 @@ const MovieView = ({ movie, onBackClick })=>{
                     }, void 0, false, {
                         fileName: "src/components/movie-card/movie-view.jsx",
                         lineNumber: 18,
-                        columnNumber: 17
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                         children: [
@@ -28351,13 +28351,13 @@ const MovieView = ({ movie, onBackClick })=>{
                     }, void 0, true, {
                         fileName: "src/components/movie-card/movie-view.jsx",
                         lineNumber: 19,
-                        columnNumber: 17
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/movie-card/movie-view.jsx",
                 lineNumber: 17,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 class: "movie-card",
@@ -28367,7 +28367,7 @@ const MovieView = ({ movie, onBackClick })=>{
                     }, void 0, false, {
                         fileName: "src/components/movie-card/movie-view.jsx",
                         lineNumber: 22,
-                        columnNumber: 17
+                        columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                         children: [
@@ -28377,28 +28377,31 @@ const MovieView = ({ movie, onBackClick })=>{
                     }, void 0, true, {
                         fileName: "src/components/movie-card/movie-view.jsx",
                         lineNumber: 23,
-                        columnNumber: 17
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/movie-card/movie-view.jsx",
                 lineNumber: 21,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                 class: "back-button",
                 onClick: onBackClick,
-                children: "Back "
-            }, void 0, false, {
+                children: [
+                    "Back",
+                    " "
+                ]
+            }, void 0, true, {
                 fileName: "src/components/movie-card/movie-view.jsx",
                 lineNumber: 25,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/movie-card/movie-view.jsx",
         lineNumber: 5,
-        columnNumber: 9
+        columnNumber: 5
     }, undefined);
 };
 _c = MovieView;
