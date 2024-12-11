@@ -27378,7 +27378,7 @@ const MainView = ()=>{
             setMovies(data);
             console.log("Movies from api:", data);
         });
-    });
+    }, []);
     const [selectedMovie, setSelectedMovie] = (0, _react.useState)(null);
     if (selectedMovie) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieViewJsx.MovieView), {
@@ -27407,7 +27407,7 @@ const MainView = ()=>{
                 onMovieClick: (newSelection)=>{
                     setSelectedMovie(newSelection);
                 }
-            }, movie.id, false, {
+            }, movie._id, false, {
                 fileName: "src/components/main-view/main-view.jsx",
                 lineNumber: 38,
                 columnNumber: 9
@@ -27444,7 +27444,7 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 const MovieCard = ({ movie, onMovieClick })=>{
     //const {book} = props;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        class: "movie-list",
+        className: "movie-list",
         onClick: ()=>{
             onMovieClick(movie);
         },

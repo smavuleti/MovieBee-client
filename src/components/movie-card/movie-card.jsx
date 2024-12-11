@@ -4,7 +4,7 @@ export const MovieCard = ({ movie, onMovieClick }) => {
   //const {book} = props;
   return (
     <div
-      class="movie-list"
+      className="movie-list"
       onClick={() => {
         onMovieClick(movie);
       }}

@@ -14,7 +14,7 @@ export const MainView = () => {
         setMovies(data);
         console.log("Movies from api:", data);
       });
-  });
+  }, []);
 
   const [selectedMovie, setSelectedMovie] = useState(null);
 
@@ -36,7 +36,7 @@ export const MainView = () => {
     <div>
       {movies.map((movie) => (
         <MovieCard
-          key={movie.id}
+          key={movie._id}
           movie={movie}
           onMovieClick={(newSelection) => {
             setSelectedMovie(newSelection);
