@@ -143,8 +143,8 @@
     }
   }
 })({"7cwXO":[function(require,module,exports,__globalThis) {
-var Refresh = require("39b100ad74b2f851");
-var ErrorOverlay = require("4f36ee9d932d6086");
+var Refresh = require("7feb279f5bea0bcb");
+var ErrorOverlay = require("151aa1b6a0bfccf7");
 window.__REACT_REFRESH_VERSION_RUNTIME = '0.14.2';
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
@@ -164,11 +164,11 @@ window.addEventListener('parcelhmraccept', ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"39b100ad74b2f851":"7LnTi","4f36ee9d932d6086":"hlmUn"}],"7LnTi":[function(require,module,exports,__globalThis) {
+},{"7feb279f5bea0bcb":"7LnTi","151aa1b6a0bfccf7":"hlmUn"}],"7LnTi":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("abc1218c02c12565");
+module.exports = require("993ff29daa706ab8");
 
-},{"abc1218c02c12565":"h0pm8"}],"h0pm8":[function(require,module,exports,__globalThis) {
+},{"993ff29daa706ab8":"h0pm8"}],"h0pm8":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-refresh-runtime.development.js
@@ -610,7 +610,7 @@ module.exports = require("abc1218c02c12565");
 })();
 
 },{}],"hlmUn":[function(require,module,exports,__globalThis) {
-var process = require("f5db6e127cc21458");
+var process = require("2f5ceb229f6d4c65");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2340,7 +2340,7 @@ var process = require("f5db6e127cc21458");
     ]);
 });
 
-},{"f5db6e127cc21458":"dSbXK"}],"dSbXK":[function(require,module,exports,__globalThis) {
+},{"2f5ceb229f6d4c65":"dSbXK"}],"dSbXK":[function(require,module,exports,__globalThis) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2943,7 +2943,7 @@ var _indexScss = require("./index.scss");
 const MovieBeeApp = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainViewJsx.MainView), {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 10,
+        lineNumber: 9,
         columnNumber: 10
     }, undefined);
 };
@@ -2954,7 +2954,7 @@ const root = (0, _client.createRoot)(container);
 // Tells React to render your app in the root DOM element
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(MovieBeeApp, {}, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 19,
+    lineNumber: 17,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -27256,17 +27256,17 @@ const MainView = ()=>{
                 }
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 34,
+                lineNumber: 33,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 40,
+                lineNumber: 39,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signupViewJsx.SignupView), {}, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 41,
+                lineNumber: 40,
                 columnNumber: 9
             }, undefined)
         ]
@@ -27277,19 +27277,19 @@ const MainView = ()=>{
             onBackClick: ()=>setSelectedMovie(null)
         }, void 0, false, {
             fileName: "src/components/main-view/main-view.jsx",
-            lineNumber: 49,
+            lineNumber: 48,
             columnNumber: 9
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 48,
+        lineNumber: 47,
         columnNumber: 7
     }, undefined);
     if (movies.length === 0) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: " The list is empty! "
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 58,
+        lineNumber: 57,
         columnNumber: 12
     }, undefined);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
@@ -27300,7 +27300,7 @@ const MainView = ()=>{
                         children: "Movies List:"
                     }, void 0, false, {
                         fileName: "src/components/main-view/main-view.jsx",
-                        lineNumber: 65,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, undefined),
                     movies.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCardJsx.MovieCard), {
@@ -27310,13 +27310,13 @@ const MainView = ()=>{
                             }
                         }, movie._id, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 67,
-                            columnNumber: 9
+                            lineNumber: 65,
+                            columnNumber: 11
                         }, undefined))
                 ]
             }, void 0, true, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 64,
+                lineNumber: 62,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27332,8 +27332,8 @@ const MainView = ()=>{
                 ]
             }, void 0, true, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 77,
-                columnNumber: 1
+                lineNumber: 75,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true);
@@ -28170,8 +28170,8 @@ exports.export = function(dest, destName, get) {
 
 },{}],"6ZIFf":[function(require,module,exports,__globalThis) {
 "use strict";
-var Refresh = require("3f1430ac5e8549dc");
-var { version } = require("801cdb1684e73712");
+var Refresh = require("5fe4a9f7d3169ef3");
+var { version } = require("ffd4ce3ac8a5e11f");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -28310,7 +28310,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"3f1430ac5e8549dc":"7LnTi","801cdb1684e73712":"hr0bT"}],"hr0bT":[function(require,module,exports,__globalThis) {
+},{"5fe4a9f7d3169ef3":"7LnTi","ffd4ce3ac8a5e11f":"hr0bT"}],"hr0bT":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"react-refresh\",\"description\":\"React is a JavaScript library for building user interfaces.\",\"keywords\":[\"react\"],\"version\":\"0.14.2\",\"homepage\":\"https://reactjs.org/\",\"bugs\":\"https://github.com/facebook/react/issues\",\"license\":\"MIT\",\"files\":[\"LICENSE\",\"README.md\",\"babel.js\",\"runtime.js\",\"cjs/\",\"umd/\"],\"main\":\"runtime.js\",\"exports\":{\".\":\"./runtime.js\",\"./runtime\":\"./runtime.js\",\"./babel\":\"./babel.js\",\"./package.json\":\"./package.json\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/facebook/react.git\",\"directory\":\"packages/react\"},\"engines\":{\"node\":\">=0.10.0\"},\"devDependencies\":{\"react-16-8\":\"npm:react@16.8.0\",\"react-dom-16-8\":\"npm:react-dom@16.8.0\",\"scheduler-0-13\":\"npm:scheduler@0.13.0\"}}");
 
 },{}],"irZ6c":[function(require,module,exports,__globalThis) {
@@ -28540,7 +28540,8 @@ const LoginView = ({ onLoggedIn })=>{
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                     children: [
-                        "Username: ",
+                        "Username:",
+                        " ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                             type: "text",
                             value: username,
@@ -28548,23 +28549,24 @@ const LoginView = ({ onLoggedIn })=>{
                             required: true
                         }, void 0, false, {
                             fileName: "src/components/login-view/login-view.jsx",
-                            lineNumber: 43,
-                            columnNumber: 27
+                            lineNumber: 44,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/login-view/login-view.jsx",
                     lineNumber: 42,
-                    columnNumber: 13
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                     fileName: "src/components/login-view/login-view.jsx",
-                    lineNumber: 45,
-                    columnNumber: 13
+                    lineNumber: 51,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                     children: [
-                        "Password: ",
+                        "Password:",
+                        " ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                             type: "password",
                             value: password,
@@ -28572,38 +28574,38 @@ const LoginView = ({ onLoggedIn })=>{
                             required: true
                         }, void 0, false, {
                             fileName: "src/components/login-view/login-view.jsx",
-                            lineNumber: 47,
-                            columnNumber: 27
+                            lineNumber: 54,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/login-view/login-view.jsx",
-                    lineNumber: 46,
-                    columnNumber: 13
+                    lineNumber: 52,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                     fileName: "src/components/login-view/login-view.jsx",
-                    lineNumber: 49,
-                    columnNumber: 13
+                    lineNumber: 61,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                     type: "submit",
                     children: " Login "
                 }, void 0, false, {
                     fileName: "src/components/login-view/login-view.jsx",
-                    lineNumber: 50,
-                    columnNumber: 13
+                    lineNumber: 62,
+                    columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/login-view/login-view.jsx",
             lineNumber: 40,
-            columnNumber: 9
+            columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/login-view/login-view.jsx",
         lineNumber: 39,
-        columnNumber: 9
+        columnNumber: 5
     }, undefined);
 };
 _s(LoginView, "Lrw7JeD9zj6OUWhT/IH4OIvPKEk=");
@@ -28664,12 +28666,13 @@ const SignupView = ()=>{
                     children: " New here? Please signup and become a movie bee "
                 }, void 0, false, {
                     fileName: "src/components/signup-view/signup-view.jsx",
-                    lineNumber: 41,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                     children: [
-                        "Username: ",
+                        "Username:",
+                        " ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                             type: "text",
                             value: username,
@@ -28678,19 +28681,19 @@ const SignupView = ()=>{
                             minLength: "3"
                         }, void 0, false, {
                             fileName: "src/components/signup-view/signup-view.jsx",
-                            lineNumber: 43,
-                            columnNumber: 27
+                            lineNumber: 41,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/signup-view/signup-view.jsx",
-                    lineNumber: 42,
-                    columnNumber: 13
+                    lineNumber: 39,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                     fileName: "src/components/signup-view/signup-view.jsx",
-                    lineNumber: 45,
-                    columnNumber: 29
+                    lineNumber: 49,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                     children: [
@@ -28702,23 +28705,24 @@ const SignupView = ()=>{
                             required: true
                         }, void 0, false, {
                             fileName: "src/components/signup-view/signup-view.jsx",
-                            lineNumber: 48,
-                            columnNumber: 17
+                            lineNumber: 52,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/signup-view/signup-view.jsx",
-                    lineNumber: 46,
-                    columnNumber: 13
+                    lineNumber: 50,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                     fileName: "src/components/signup-view/signup-view.jsx",
-                    lineNumber: 50,
-                    columnNumber: 13
+                    lineNumber: 59,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                     children: [
-                        "Email: ",
+                        "Email:",
+                        " ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                             type: "email",
                             value: email,
@@ -28726,23 +28730,24 @@ const SignupView = ()=>{
                             required: true
                         }, void 0, false, {
                             fileName: "src/components/signup-view/signup-view.jsx",
-                            lineNumber: 52,
-                            columnNumber: 24
+                            lineNumber: 62,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/signup-view/signup-view.jsx",
-                    lineNumber: 51,
-                    columnNumber: 13
+                    lineNumber: 60,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                     fileName: "src/components/signup-view/signup-view.jsx",
-                    lineNumber: 54,
-                    columnNumber: 13
+                    lineNumber: 69,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
                     children: [
-                        "Birthday: ",
+                        "Birthday:",
+                        " ",
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                             type: "date",
                             value: birthday,
@@ -28750,38 +28755,38 @@ const SignupView = ()=>{
                             required: true
                         }, void 0, false, {
                             fileName: "src/components/signup-view/signup-view.jsx",
-                            lineNumber: 56,
-                            columnNumber: 27
+                            lineNumber: 72,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/signup-view/signup-view.jsx",
-                    lineNumber: 55,
-                    columnNumber: 13
+                    lineNumber: 70,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                     fileName: "src/components/signup-view/signup-view.jsx",
-                    lineNumber: 58,
-                    columnNumber: 13
+                    lineNumber: 79,
+                    columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                     type: "submit",
                     children: " Signup "
                 }, void 0, false, {
                     fileName: "src/components/signup-view/signup-view.jsx",
-                    lineNumber: 59,
-                    columnNumber: 13
+                    lineNumber: 80,
+                    columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/signup-view/signup-view.jsx",
-            lineNumber: 40,
-            columnNumber: 9
+            lineNumber: 37,
+            columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/signup-view/signup-view.jsx",
-        lineNumber: 37,
-        columnNumber: 9
+        lineNumber: 36,
+        columnNumber: 5
     }, undefined);
 };
 _s(SignupView, "jsOQN3GC2XlBG9ITlzCdpyJOnso=");
