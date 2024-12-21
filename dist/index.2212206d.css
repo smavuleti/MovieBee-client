@@ -1,12 +1,11 @@
-<<<<<<< Updated upstream
-.movie-bee {
-  color: #395c6b;
-  padding: 50px;
+@font-face {
+  font-family: CustomeFont;
+  src: url("NotoSans-VariableFont_wdth,wght.59102fac.ttf");
 }
-=======
+
 .back-button {
   color: #fff;
-  background-color: #395c6b;
+  background-color: #23212c;
   width: 100px;
   height: 50px;
   font-style: normal;
@@ -21,11 +20,6 @@
   margin-bottom: 2%;
   margin-left: 95%;
   font-style: normal;
-}
-
-@font-face {
-  font-family: CustomeFont;
-  src: url("NotoSans-VariableFont_wdth,wght.59102fac.ttf");
 }
 
 body {
@@ -13424,5 +13418,4 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
->>>>>>> Stashed changes
 /*# sourceMappingURL=index.2212206d.css.map */

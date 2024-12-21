@@ -29,59 +29,60 @@ export const MainView = () => {
       });
   }, [token]);
 
-  return (
-    <>
-    <Row className="justify-content-md-end g-4" md={2} >
-      {!user ? (
-        <>
-        <Col md={4}>
-                <LoginView
-          onLoggedIn={(user, token) => {
-            setUser(user);
-            setToken(token);
-          }}
-        />
-                <br></br>
-                <SignupView />
-                </Col>
-        </>
-  
-      ) : selectedMovie ? (
-        <Col md={5}>
-        <MovieView 
-        movie={selectedMovie}
-        onBackClick={() => setSelectedMovie(null)} 
-          />
-          </Col>
-        ) : movies.length === 0 ? (
-          <div>The list is empty!</div>
-        ) : (
+    return (
+      <>
+      <Row className="justify-content-md-end g-4" md={2} >
+        {!user ? (
           <>
-            {movies.map((movie) => (
-              <Col  lg={3} className="d-flex align-items-stretch" key={movie._id} >
-              <MovieCard
-                key={movie._id}
-                movie={movie}
-                onMovieClick={(newSelection) => {
-                  setSelectedMovie(newSelection);
-                }}
-              />
-              </Col>
-            ))}
-            <button
-            className="myButton"
-        onClick={() => {
-          setUser(null);
-          setToken(null);
-          localStorage.clear();
-        }}
-      >
-        {" "}
-        Logout{" "}
-      </button>
+          <Col md={4}>
+                  <LoginView
+            onLoggedIn={(user, token) => {
+              setUser(user);
+              setToken(token);
+            }}
+          />
+                  <br></br>
+                  <SignupView />
+                  </Col>
           </>
-      )}
-    </Row>
-    </>
-  )
-};
+    
+        ) : selectedMovie ? (
+          <Col md={5}>
+          <MovieView 
+          movie={selectedMovie}
+          onBackClick={() => setSelectedMovie(null)} 
+            />
+            </Col>
+          ) : movies.length === 0 ? (
+            <div>The list is empty!</div>
+          ) : (
+            <>
+              {movies.map((movie) => (
+                <Col  lg={3} className="d-flex align-items-stretch" key={movie._id} >
+                <MovieCard
+                  key={movie._id}
+                  movie={movie}
+                  onMovieClick={(newSelection) => {
+                    setSelectedMovie(newSelection);
+                  }}
+                />
+                </Col>
+              ))}
+              <button
+              className="myButton"
+          onClick={() => {
+            setUser(null);
+            setToken(null);
+            localStorage.clear();
+          }}
+        >
+          {" "}
+          Logout{" "}
+        </button>
+            </>
+        )}
+      </Row>
+      </>
+    )
+  };
+  

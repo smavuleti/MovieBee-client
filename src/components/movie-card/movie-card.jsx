@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
 import { Card } from "react-bootstrap";
 
+
 export const MovieCard = ({ movie, onMovieClick }) => {
+  //const {book} = props;
   return (
     <Card style={{ width: "18rem" }} bg="dark" text="light">
       <Card.Img variant="top" src={movie.ImagePath} />
