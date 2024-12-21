@@ -22,6 +22,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: CustomeFont;
+  src: url("NotoSans-VariableFont_wdth,wght.59102fac.ttf");
+}
+
 body {
   background-image: url("Background.aa22dacb.svg");
   background-position: center;
