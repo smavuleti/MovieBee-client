@@ -5,7 +5,7 @@ import { LoginView } from "../login-view/login-view.jsx";
 import { SignupView } from "../signup-view/signup-view.jsx";
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
-
+//sadad
 export const MainView = () => {
   const url = "https://smavuleti-moviebee-479d2e8d7a6f.herokuapp.com/allMovies";
   const storedUser = JSON.parse(localStorage.getItem("user"));
@@ -24,9 +24,7 @@ export const MainView = () => {
       headers: { Authorization: `Bearer ${token}` },
     })
       .then((response) => response.json())
-      .then((data) => {
-        setMovies(data);
-      });
+      .then(setMovies);
   }, [token]);
 
     return (
