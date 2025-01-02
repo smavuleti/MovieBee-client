@@ -34,7 +34,7 @@
     "rreact": "^0.0.1-security"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.13.0",
+    "@parcel/transformer-sass": "^2.7.0",
     "buffer": "^6.0.3",
     "process": "^0.11.10"
   }
