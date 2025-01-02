@@ -1,0 +1,19 @@
+$primary: #23212c;
+$body-bg: #121212;
+$font-color: #d9d9d9;
+
+@font-face {
+    font-family: "CustomeFont"; /* Noto Serif*/
+    src: url("../../font/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf");
+  }
+
+  
+.profile-container {
+    font-family: "CustomeFont";
+    color: $font-color;
+    background-color: '#121212'
+  }
+
+  .profile-form-button {
+    margin-right: 10px;
+  }
