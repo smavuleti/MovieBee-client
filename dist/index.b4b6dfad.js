@@ -143,8 +143,8 @@
     }
   }
 })({"7cwXO":[function(require,module,exports,__globalThis) {
-var Refresh = require("7feb279f5bea0bcb");
-var ErrorOverlay = require("151aa1b6a0bfccf7");
+var Refresh = require("e27a506e37ac6b6f");
+var ErrorOverlay = require("cba3406f49e32b58");
 window.__REACT_REFRESH_VERSION_RUNTIME = '0.14.2';
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
@@ -164,11 +164,11 @@ window.addEventListener('parcelhmraccept', ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"7feb279f5bea0bcb":"7LnTi","151aa1b6a0bfccf7":"hlmUn"}],"7LnTi":[function(require,module,exports,__globalThis) {
+},{"e27a506e37ac6b6f":"7LnTi","cba3406f49e32b58":"hlmUn"}],"7LnTi":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("993ff29daa706ab8");
+module.exports = require("3d27cc7aa1cb5d07");
 
-},{"993ff29daa706ab8":"h0pm8"}],"h0pm8":[function(require,module,exports,__globalThis) {
+},{"3d27cc7aa1cb5d07":"h0pm8"}],"h0pm8":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-refresh-runtime.development.js
@@ -610,7 +610,7 @@ module.exports = require("993ff29daa706ab8");
 })();
 
 },{}],"hlmUn":[function(require,module,exports,__globalThis) {
-var process = require("2f5ceb229f6d4c65");
+var process = require("589e2d54529c2e00");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2340,7 +2340,7 @@ var process = require("2f5ceb229f6d4c65");
     ]);
 });
 
-},{"2f5ceb229f6d4c65":"dSbXK"}],"dSbXK":[function(require,module,exports,__globalThis) {
+},{"589e2d54529c2e00":"dSbXK"}],"dSbXK":[function(require,module,exports,__globalThis) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2934,24 +2934,30 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$98a3.prelude(module);
 
 try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _client = require("react-dom/client");
+var _mainViewJsx = require("./components/main-view/main-view.jsx");
+var _bootstrapMinCss = require("bootstrap/dist/css/bootstrap.min.css");
+var _container = require("react-bootstrap/Container");
+var _containerDefault = parcelHelpers.interopDefault(_container);
 // Import statement to indicate that you need to bundle `./index.scss`
 var _indexScss = require("./index.scss");
+var _reactBootstrap = require("react-bootstrap");
 // Main component (will eventually use all the others)
 const MovieBeeApp = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "movie-bee",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            children: " Welcome to Movie Bee Application!"
-        }, void 0, false, {
-            fileName: "src/index.jsx",
-            lineNumber: 10,
-            columnNumber: 7
-        }, undefined)
-    }, void 0, false, {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Container), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainViewJsx.MainView), {}, void 0, false, {
+                fileName: "src/index.jsx",
+                lineNumber: 15,
+                columnNumber: 7
+            }, undefined),
+            ";"
+        ]
+    }, void 0, true, {
         fileName: "src/index.jsx",
-        lineNumber: 9,
+        lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
@@ -2962,7 +2968,7 @@ const root = (0, _client.createRoot)(container);
 // Tells React to render your app in the root DOM element
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(MovieBeeApp, {}, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 21,
+    lineNumber: 25,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -2973,7 +2979,7 @@ $RefreshReg$(_c, "MovieBeeApp");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZIFf"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/main-view/main-view.jsx":"4gflv","bootstrap/dist/css/bootstrap.min.css":"i5LP7","react-bootstrap/Container":"hEdsw","./index.scss":"lJZlQ","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"aRELh","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZIFf"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -27216,9 +27222,6 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== 'undefined' && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === 'function') __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-<<<<<<< Updated upstream
-},{}],"lJZlQ":[function() {},{}],"6ZIFf":[function(require,module,exports,__globalThis) {
-=======
 },{}],"4gflv":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$f7a6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
@@ -36627,10 +36630,9 @@ function _renderMatches(matches, parentMatches) {
 }
 
 },{"history":"iE5Zp","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"aRELh"}],"6ZIFf":[function(require,module,exports,__globalThis) {
->>>>>>> Stashed changes
 "use strict";
-var Refresh = require("5fe4a9f7d3169ef3");
-var { version } = require("ffd4ce3ac8a5e11f");
+var Refresh = require("f248cecad6b0fb2f");
+var { version } = require("c2c048530f76f7f9");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -36769,12 +36771,9 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"5fe4a9f7d3169ef3":"7LnTi","ffd4ce3ac8a5e11f":"hr0bT"}],"hr0bT":[function(require,module,exports,__globalThis) {
+},{"f248cecad6b0fb2f":"7LnTi","c2c048530f76f7f9":"hr0bT"}],"hr0bT":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"react-refresh\",\"description\":\"React is a JavaScript library for building user interfaces.\",\"keywords\":[\"react\"],\"version\":\"0.14.2\",\"homepage\":\"https://reactjs.org/\",\"bugs\":\"https://github.com/facebook/react/issues\",\"license\":\"MIT\",\"files\":[\"LICENSE\",\"README.md\",\"babel.js\",\"runtime.js\",\"cjs/\",\"umd/\"],\"main\":\"runtime.js\",\"exports\":{\".\":\"./runtime.js\",\"./runtime\":\"./runtime.js\",\"./babel\":\"./babel.js\",\"./package.json\":\"./package.json\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/facebook/react.git\",\"directory\":\"packages/react\"},\"engines\":{\"node\":\">=0.10.0\"},\"devDependencies\":{\"react-16-8\":\"npm:react@16.8.0\",\"react-dom-16-8\":\"npm:react-dom@16.8.0\",\"scheduler-0-13\":\"npm:scheduler@0.13.0\"}}");
 
-<<<<<<< Updated upstream
-},{}]},["7cwXO","55nOk","d8Dch"], "d8Dch", "parcelRequire94c2")
-=======
 },{}],"irZ6c":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$d899 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
@@ -42585,9 +42584,9 @@ $RefreshReg$(_c, "NavigationBar");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","react-bootstrap":"3AD9A","react-router-dom":"fdOAw","../../images/AppLogo.svg":"ib7EA","@parcel/transformer-js/src/esmodule-helpers.js":"aRELh","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZIFf"}],"ib7EA":[function(require,module,exports,__globalThis) {
-module.exports = require("b5cdd31ed40a7b75").getBundleURL('byUka') + "AppLogo.ef732a4a.svg" + "?" + Date.now();
+module.exports = require("a56c7350dd8dbc25").getBundleURL('byUka') + "AppLogo.ef732a4a.svg" + "?" + Date.now();
 
-},{"b5cdd31ed40a7b75":"95GEp"}],"95GEp":[function(require,module,exports,__globalThis) {
+},{"a56c7350dd8dbc25":"95GEp"}],"95GEp":[function(require,module,exports,__globalThis) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
@@ -42948,6 +42947,5 @@ $RefreshReg$(_c, "ProfileView");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"fdOAw","axios":"jo6P5","../movie-card/movie-card":"bwuIu","./profile-view.scss":"eyKYH","@parcel/transformer-js/src/esmodule-helpers.js":"aRELh","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZIFf"}],"eyKYH":[function() {},{}],"i5LP7":[function() {},{}],"lJZlQ":[function() {},{}]},["7cwXO","55nOk","d8Dch"], "d8Dch", "parcelRequire94c2")
->>>>>>> Stashed changes
 
 //# sourceMappingURL=index.b4b6dfad.js.map
