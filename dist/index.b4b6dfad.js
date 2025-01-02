@@ -143,8 +143,8 @@
     }
   }
 })({"7cwXO":[function(require,module,exports,__globalThis) {
-var Refresh = require("e27a506e37ac6b6f");
-var ErrorOverlay = require("cba3406f49e32b58");
+var Refresh = require("7feb279f5bea0bcb");
+var ErrorOverlay = require("151aa1b6a0bfccf7");
 window.__REACT_REFRESH_VERSION_RUNTIME = '0.14.2';
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
@@ -164,11 +164,11 @@ window.addEventListener('parcelhmraccept', ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"e27a506e37ac6b6f":"7LnTi","cba3406f49e32b58":"hlmUn"}],"7LnTi":[function(require,module,exports,__globalThis) {
+},{"7feb279f5bea0bcb":"7LnTi","151aa1b6a0bfccf7":"hlmUn"}],"7LnTi":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("3d27cc7aa1cb5d07");
+module.exports = require("993ff29daa706ab8");
 
-},{"3d27cc7aa1cb5d07":"h0pm8"}],"h0pm8":[function(require,module,exports,__globalThis) {
+},{"993ff29daa706ab8":"h0pm8"}],"h0pm8":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-refresh-runtime.development.js
@@ -610,7 +610,7 @@ module.exports = require("3d27cc7aa1cb5d07");
 })();
 
 },{}],"hlmUn":[function(require,module,exports,__globalThis) {
-var process = require("589e2d54529c2e00");
+var process = require("2f5ceb229f6d4c65");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2340,7 +2340,7 @@ var process = require("589e2d54529c2e00");
     ]);
 });
 
-},{"589e2d54529c2e00":"dSbXK"}],"dSbXK":[function(require,module,exports,__globalThis) {
+},{"2f5ceb229f6d4c65":"dSbXK"}],"dSbXK":[function(require,module,exports,__globalThis) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -36631,8 +36631,8 @@ function _renderMatches(matches, parentMatches) {
 
 },{"history":"iE5Zp","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"aRELh"}],"6ZIFf":[function(require,module,exports,__globalThis) {
 "use strict";
-var Refresh = require("f248cecad6b0fb2f");
-var { version } = require("c2c048530f76f7f9");
+var Refresh = require("5fe4a9f7d3169ef3");
+var { version } = require("ffd4ce3ac8a5e11f");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -36771,7 +36771,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"f248cecad6b0fb2f":"7LnTi","c2c048530f76f7f9":"hr0bT"}],"hr0bT":[function(require,module,exports,__globalThis) {
+},{"5fe4a9f7d3169ef3":"7LnTi","ffd4ce3ac8a5e11f":"hr0bT"}],"hr0bT":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"react-refresh\",\"description\":\"React is a JavaScript library for building user interfaces.\",\"keywords\":[\"react\"],\"version\":\"0.14.2\",\"homepage\":\"https://reactjs.org/\",\"bugs\":\"https://github.com/facebook/react/issues\",\"license\":\"MIT\",\"files\":[\"LICENSE\",\"README.md\",\"babel.js\",\"runtime.js\",\"cjs/\",\"umd/\"],\"main\":\"runtime.js\",\"exports\":{\".\":\"./runtime.js\",\"./runtime\":\"./runtime.js\",\"./babel\":\"./babel.js\",\"./package.json\":\"./package.json\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/facebook/react.git\",\"directory\":\"packages/react\"},\"engines\":{\"node\":\">=0.10.0\"},\"devDependencies\":{\"react-16-8\":\"npm:react@16.8.0\",\"react-dom-16-8\":\"npm:react-dom@16.8.0\",\"scheduler-0-13\":\"npm:scheduler@0.13.0\"}}");
 
 },{}],"irZ6c":[function(require,module,exports,__globalThis) {
@@ -42584,9 +42584,9 @@ $RefreshReg$(_c, "NavigationBar");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","react-bootstrap":"3AD9A","react-router-dom":"fdOAw","../../images/AppLogo.svg":"ib7EA","@parcel/transformer-js/src/esmodule-helpers.js":"aRELh","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"6ZIFf"}],"ib7EA":[function(require,module,exports,__globalThis) {
-module.exports = require("a56c7350dd8dbc25").getBundleURL('byUka') + "AppLogo.ef732a4a.svg" + "?" + Date.now();
+module.exports = require("b5cdd31ed40a7b75").getBundleURL('byUka') + "AppLogo.ef732a4a.svg" + "?" + Date.now();
 
-},{"a56c7350dd8dbc25":"95GEp"}],"95GEp":[function(require,module,exports,__globalThis) {
+},{"b5cdd31ed40a7b75":"95GEp"}],"95GEp":[function(require,module,exports,__globalThis) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
