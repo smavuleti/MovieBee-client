@@ -1,0 +1,28 @@
+$primary: #23212c;
+$body-bg: #d9d9d9;
+
+@font-face {
+  font-family: "CustomeFont"; /* Noto Serif*/
+  src: url("../../font/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf");
+}
+
+.back-button {
+    width: 100px;
+    height: 50px;
+    background-color:$primary;
+    color: white;
+    font-style: normal;
+  }
+  
+  .sampleLogoutButton {
+    margin-left: 95%;
+    margin-bottom: 2%;
+    width: 100px;
+    height: 50px;
+
+    background-color: #2c3e50;
+    color: white;
+    font-style: normal;
+    border-radius: 6%;
+  }
+  
