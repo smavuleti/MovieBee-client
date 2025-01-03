@@ -13,7 +13,7 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build": "parcel build src/index.html --public-url /"
   },
