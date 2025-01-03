@@ -14,7 +14,9 @@
   "author": "",
   "type": "commonjs",
   "scripts": {
-    "build": "parcel build src/index.html --public-url /"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /",
+    "clean": "rimraf dist .parcel-cache"
   },
   "dependencies": {
     "axios": "^1.7.9",
