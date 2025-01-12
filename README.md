@@ -3,7 +3,7 @@
 ## Objective: 
 
 
-This project aims to build the client side for the myFlix application using React. The client interacts with the existing server-side code (REST API and database) to deliver a seamless and responsive user experience.
+This project aims to build the client side for the Movie Bee application using React. The client interacts with the existing server-side code (REST API and database) to deliver a seamless and responsive user experience.
 
 ## Features
 1. User Authentication:
