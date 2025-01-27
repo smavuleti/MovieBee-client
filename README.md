@@ -2,7 +2,7 @@
 
 ## Objective
 
-Using **React**, this project aims to build the client-side of the MovieBee application based on its existing server-side code (REST API and database). The client-side will serve as the user interface, allowing users to interact with the app’s backend through several views.
+Using **React**, this project aims to build the client-side of the MovieBee application based on its existing server-side code ([MovieBee-API](https://github.com/smavuleti/MovieBee-API)). The client-side will serve as the user interface, allowing users to interact with the app’s backend through several views.
 
 ---
 
